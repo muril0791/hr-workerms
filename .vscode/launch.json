@@ -10,6 +10,17 @@
             "projectName": "hr-workerms",
             "args": "",
             "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-HrPayrollApplication<hr-payroll>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.hrpayrool.hrpayroll.HrPayrollApplication",
+            "projectName": "hr-payroll",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
         }
     ]
 }
